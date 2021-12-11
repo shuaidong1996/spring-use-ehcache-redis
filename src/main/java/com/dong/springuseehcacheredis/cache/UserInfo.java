@@ -31,5 +31,4 @@ public class UserInfo {
         System.out.println("userName: " + userName);
         return userName;
     }
-
 }
