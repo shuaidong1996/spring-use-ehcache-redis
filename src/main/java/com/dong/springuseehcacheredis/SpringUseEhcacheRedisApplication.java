@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
-@ImportResource(locations = "classpath:cache/cache_manager.xml")
+@ImportResource(locations = "classpath:cache/simple_cache_manager.xml")
 public class SpringUseEhcacheRedisApplication {
 
     public static void main(String[] args) {
