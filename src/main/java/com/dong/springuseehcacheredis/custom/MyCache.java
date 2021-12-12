@@ -1,4 +1,4 @@
-package com.dong.springuseehcacheredis.cache;
+package com.dong.springuseehcacheredis.custom;
 
 import org.springframework.cache.Cache;
 

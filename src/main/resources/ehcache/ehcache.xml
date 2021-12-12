@@ -3,7 +3,7 @@
          xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
          dynamicConfig="false">
 
-    <diskStore path="java.io.tmpdir/ehcache"/>
+    <diskStore path="java.io.tmpdir/ehCacheDisk"/>
     <!--
         diskStore path:用来配置磁盘缓存使用的物理路径
         name:	缓存名称,cache的唯一标识(ehcache会把这个cache放到HashMap里)

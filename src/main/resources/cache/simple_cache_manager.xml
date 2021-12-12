@@ -16,7 +16,7 @@
                     <property name="name" value="userCache"/>
                 </bean>
                 <!-- 自定义cache -->
-                <bean class="com.dong.springuseehcacheredis.cache.MyCache">
+                <bean class="com.dong.springuseehcacheredis.custom.MyCache">
                     <property name="name" value="帅东自定义cache"/>
                 </bean>
             </set>
